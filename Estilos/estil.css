@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    /*background-color: #f4f4f4;*/
+    background-image: url("/imgenes/carro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  header {
+    color: #1af021;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  h1 {
+    margin-inline-start: 1em;
+  }
+
+  img {
+    inline-size: 5em;
+    float: inline-start;
+    padding: 0%;
+    margin-right: 0px;
+    margin-left: 20px;
+    display:flow-root;
+  }
+
+  h2{
+    color: #1af021;
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  .container_registro {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    border: 3px solid #04662B;
+    inline-size: 300px;
+    text-align: center;
+    margin-inline-start: 28em;
+    /*margin-block-start: 20px;*/
+    inline-size: 40%;
+
+  }
+
+  .container_inicio {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    border: 3px solid #04662B;
+    inline-size: 300px;
+    text-align: center;
+    margin-inline-start: 35em;
+    margin-block-start: 20px;
+  }
+/*input de inicio de sesion*/
+  input {
+    inline-size: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #04662B;
+    border-radius: 4px;
+    
+  }
+
+  button {
+    background-color: #1af021;
+    color: rgb(8, 8, 8);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  /*animacion del boton*/
+.float{
+  transition: .5s, color .10s;
+  -webkit-transition: .5s, color .10s;
+  -moz-transition: .5s, color .10s;
+}
+.float:hover{
+  box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  -moz-transform:translate(0px,5px);
+}
+
+  button:hover {
+    background-color: #1af021;
+  }
+
+  footer {
+    background: linear-gradient(to right, #0b8812, #0b8812);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+
+  .contact-info div {
+    text-align: left;
+  }
+
+  .contact-info i {
+    margin-right: 5px;
+  }

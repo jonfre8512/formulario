@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro </title>
+    <link rel="icon" href="imgenes/logo.png" sizes="16x16" type="image/png"> <!--insertar icono en pestaña-->
+    <link rel="stylesheet" href="Estilos/estil.css">
+    <link rel="stylesheet" href="java scrip/anima.js">
+
+</head>
+
+
+<body>
+    <header>
+        <a href="https://www.localiza.com/colombia/es-co"><img src="imgenes/localiza.png" alt="logo"></a>
+        <h1>Registro</h1>
+    </header>
+    
+    <div class="container_registro">
+
+    <form id="registroForm">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="nombre">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        <button class="float" type="submit" onclick="registrar()">Registrarse</button>
+    </form>
+
+    <p>¿Ya tienes una cuenta? <a href="login.html" onclick="mostrarInicioSesion()">Iniciar Sesión</a></p>
+    </div>
+
+</body>
+<!--pie de pagina-->
+<footer>
+    <div class="contact-info">
+        <div>
+            <i class="fa fa-envelope"></i>Correo: <a href="mailto:correo@example.com">serviciolocaliza@rentingcolombia.com</a>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>Teléfono: 01 8000 520 001
+        </div>
+        <div>
+            <i class="fa fa-whatsapp"></i>WhatsApp: <a href="https://wa.me/123456789">+57 305 412 6837</a>
+        </div>
+        <div>
+            <i class="fa fa-map-marker"></i>agencia principal Localiza la 4 Sur, Medellín, Antioquia
+        </div>
+    </div>
+</footer>
+</html>
