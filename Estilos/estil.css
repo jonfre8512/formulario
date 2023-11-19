@@ -2,7 +2,7 @@
 body {
     font-family: 'Arial', sans-serif;
     /*background-color: #f4f4f4;*/
-    background-image: url("/imgenes/carro.jpg");
+    background-image: url("imgenes/carro.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
