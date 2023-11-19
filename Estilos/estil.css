@@ -123,3 +123,15 @@ body {
   .contact-info i {
     margin-right: 5px;
   }
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas (tabletas, móviles) */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para pantallas medianas (tabletas, pantallas más grandes) */
+}
+
+@media (min-width: 1025px) {
+  /* Estilos para pantallas grandes (escritorios, laptops) */
+}
